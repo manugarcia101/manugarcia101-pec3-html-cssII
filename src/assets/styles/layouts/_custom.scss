@@ -1,0 +1,15 @@
+.main-header {
+  @apply text-6xl text-center text-orange-600 font-black font-serif;
+}
+
+.link-style {
+  @apply text-xl text-black;
+}
+
+.link-style:hover {
+  @apply text-blue-800;
+}
+
+.ol-li_section {
+  @apply pb-16 pl-12p w-4/5 -my-8;
+}

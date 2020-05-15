@@ -1,0 +1,37 @@
+.mr-60p {
+  margin-right: 60%;
+}
+
+.ml-25p {
+  margin-left: 25%;
+}
+
+.pl-12p {
+  padding-left: 12%;
+}
+
+ol li::marker {
+  color: white;
+}
+
+.ol__style {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+.ol__style li {
+  counter-increment: my-awesome-counter;
+}
+
+.ol__style li::before {
+  content: counter(my-awesome-counter);
+  background: rgb(223, 145, 0);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+  margin-right: 0.5rem;
+}
